@@ -54,5 +54,5 @@ foreach ($students as $student) {
 echo "<h3>【統計情報】</h3>";
 echo "<p>合格者数: $pass_count</p>";
 echo "<p>不合格者数: $fail_count</p>";
-echo "<p>平均点: " . ($total_score / count($students)) . "</p>";
+echo "<p>平均点: " . ($total_score / count($students)) . "点</p>";
 ?>
